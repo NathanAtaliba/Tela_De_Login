@@ -10,10 +10,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 header{
     box-shadow: 1px;
-    width: 500px;
+    width: 600px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 20% 0;
     box-shadow: 1px 2px 10px #000 3px 6px 20px;
@@ -27,7 +28,7 @@ header{
 .textinicio{
 
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .login{
     font-size: 2rem;
@@ -38,6 +39,12 @@ header{
     outline: none;
     border-bottom: 1px solid #fff;
     color: #fff;
+}
+.label1{
+    font-size: 2rem;
+}
+.label2{
+font-size: 2rem;
 }
 
 .senha{
