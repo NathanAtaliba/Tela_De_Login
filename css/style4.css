@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corpo{
+    margin: auto;
+    background-color: aqua;
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
