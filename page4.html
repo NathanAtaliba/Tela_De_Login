@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Create account</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style4.css'>
-    <script src='main.js'></script>
+    <script src='scripts/script4.js'></script>
 </head>
 <body>
     <div class="corpo">
         <div class="inicio">Create your account</div><br>
  <label class="lab1">Nickname:</label><br>
- <input type="text" class="nick"><br>
+ <input type="text" class="nick" id="nickname"><br>
  <label>Email:</label><br>
- <input type="email" class="email"><br>
+ <input type="email" class="email" id="email"><br>
  <label>Password:</label><br>
- <input type="password" class="pass"><br>
+ <input type="password" class="pass" id="password"><br>
  <label>Email Recovery:</label><br>
- <input type="email" class="emailrecovery"><br>  
+ <input type="email" class="emailrecovery" id="emailR"><br>  
  <input type="button" class="button" value="Create">
- <input type="button" class="button" value="Clear Data">   
+ <input type="button" class="button" id="button" value="Clear Data" onclick = "limpar()">   
     </div>
 </body>
 </html>
