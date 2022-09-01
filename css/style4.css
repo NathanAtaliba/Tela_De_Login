@@ -3,10 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+.inicio{
+    top:1rem;   
+text-shadow:2px 2px gold;    
+text-decoration: underline;
+font-size: 5rem;
+position: relative; 
+}
 .corpo{
     margin: auto;
-    background-color: aqua;
-    width: 800px;
+    background-color: #fff;
+    width: 700px;
     height: 800px;
     position: relative;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px gold;
+}
+.nick{
+    position: relative;
+    border: 1px solid gold;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px gold;
+}
+.email{
+    position: relative;
+    border: 1px solid gold;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px gold;
+
+}
+.pass{
+    position: relative;
+    border: 1px solid gold;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px gold;
+}
+.emailrecovery{
+    position: relative;
+    border: 1px solid gold;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px gold;
+}
+.button{
+    position: relative;
+    top: 1rem;
+    padding: 10px 10px;
+    font-size: 3rem;
+    border-radius: 10px;
+    border:3px solid gold;
+    background-color: gold;
+}
+.button:hover{
+    cursor: pointer;
+    border: 2px solid black;
 }
