@@ -11,11 +11,13 @@ font-size: 5rem;
 position: relative; 
 }
 .corpo{
-    margin: auto;
     background-color: #fff;
     width: 700px;
     height: 800px;
     position: relative;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-50%,-50%);
     border: 2px solid black;
     text-align: center;
     font-size: 3rem;
